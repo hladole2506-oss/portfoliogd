@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshada | Graphic Designer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2 class="logo"></h2>
+    <nav>
+        <a href="#work">Work</a>
+        <a href="#videos">Videos</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    
+    <!-- Floating Circles -->
+    <div class="floating circle1"></div>
+    <div class="floating circle2"></div>
+    <div class="floating circle3"></div>
+
+    <div class="hero-content">
+        <h1>Harshada Ladole</h1>
+        <br>
+        <h2>Graphic Designer</h2>
+        <br>
+        <p>Branding • Social Media • Canva • UI Design</p>
+        <br>
+        <a href="resume.pdf" class="btn">Downlode Resume</a>
+    </div>
+
+</section>
+
+<!-- WORK SECTION -->
+<section id="work" class="section">
+    <h2>Selected Work</h2>
+    <br>
+    <br>
+
+    <div class="filters">
+        <button onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('social')">Social</button>
+        <button onclick="filterSelection('poster')">Posters</button>
+        <button onclick="filterSelection('branding')">Branding</button>
+    </div>
+    <br>
+
+    <div class="gallery">
+
+        <div class="card filter social">
+            <img src="images/social1.jpg">
+            <p>Instagram Campaign</p>
+        </div>
+
+        <div class="card filter poster">
+            <img src="images/poster1.jpg">
+            <p>Event Poster</p>
+        </div>
+
+        <div class="card filter branding">
+            <img src="images/logo1.jpg">
+            <p>Brand Identity</p>
+        </div>
+
+        <div class="card filter social">
+            <img src="images/social2.jpg">
+            <p>Product Promotion</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- VIDEO SECTION -->
+<section id="videos" class="section dark">
+    <h2>Video Portfolio</h2>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/work1.mp4" type="video/mp4">
+            </video>
+           
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/work2.mp4" type="video/mp4">
+            </video>
+        
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        Creative Graphic Designer with experience in social media design,
+        branding, and visual communication. Skilled in creating modern,
+        engaging designs that help brands grow.
+    </p>
+
+    <div class="skills">
+        <span>Photoshop</span>
+        <span>Illustrator</span>
+        <span>Canva</span>
+        <span>Figma</span>
+        <span>Branding</span>
+        <span>Social Media Design</span>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+    <h2>Contact</h2>
+    <p>Email: hsladole@gmail.com</p>
+    <p>Phone: 9579538650</p>
+</section>
+
+<footer>
+    <p>© 2026 Harshada Ladole</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
